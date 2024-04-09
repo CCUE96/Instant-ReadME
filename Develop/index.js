@@ -2,6 +2,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+const { type } = require("os");
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -56,6 +58,15 @@ const questions = [
         message: "Select a license for your project",
         choices: ["MIT", "Apache", "GPL", "BSD", "None"],
     },
+
+    {type: "input",
+    name: "email",
+    message: "Enter your email address",
+},
+
+    {type: "input",
+    name: "tests",
+    message: "Write any tests you may have(if Applicable) and how to run them with your application",}
 ];
 
 // TODO: Create a function to write README file

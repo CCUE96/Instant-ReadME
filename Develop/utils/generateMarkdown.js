@@ -56,10 +56,14 @@ function generateMarkdown(data ) {
   Table Of Contents
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Contributors](#contributors)
   - [License](#license)
+  - [Tests](#tests)
+  - [Contact](#contact)
 
-  ## <ins>Github</ins>
-  https://github.com/${data.username}
+
+ 
+
 
  
 
@@ -70,17 +74,22 @@ function generateMarkdown(data ) {
   ## <ins>Usage</ins>
   ${data.usage}
 
+  ## <ins>Contributors</ins>
+  ${data.contributors}
+
 
   ## <ins>Languages</ins>
   ${data.Languages}
 
-  ## <ins>Contributors</ins>
-  ${data.contributors}
+
 
   ## License
   ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
+
+  ## <ins>Tests</ins>
+  ${data.tests}
 
   ## <ins>Repository</ins>
   https://github.com/${data.username}/${data.title}
@@ -88,6 +97,11 @@ function generateMarkdown(data ) {
 
   ## <ins>Deployed Application</ins>
   https://${data.username}.github.io/${data.title}/
+
+  ## <ins>Contact</ins>
+  https://github.com/${data.username}
+
+  Email: ${data.email}
 
 
 

@@ -10,6 +10,7 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
+  - [Contact](#contact)
 
   ## <ins>Github</ins>
   https://github.com/ccue96
