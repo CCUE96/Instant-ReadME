@@ -27,9 +27,6 @@
   ## <ins>Languages</ins>
   javascript,node.js
 
-  ## <ins>Contributors</ins>
-  
-
   ## License
   none
   
@@ -40,12 +37,8 @@
   ## <ins>Repository</ins>
   https://github.com/ccue96/Instant-ReadME
 
-
-  ## <ins>Deployed Application</ins>
-  https://ccue96.github.io/Instant-ReadME/
-
-## <ins>Video Demonstration</ins>
-https://drive.google.com/file/d/1psaMj8NtgmkOZhqjSa8cetnIokKNarbn/view
+ ## <ins>Video Demonstration</ins>
+ https://drive.google.com/file/d/1psaMj8NtgmkOZhqjSa8cetnIokKNarbn/view
 
     
 
